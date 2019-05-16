@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:orientation="vertical" 
+    android:background="#0d0d0d"
+    android:layout_width="match_parent" 
+    android:layout_height="match_parent">
+
+    <TextView
+		android:text="Contact Us"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:minWidth="25px"
+		android:minHeight="25px"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="60px"
+        android:textStyle="bold"
+        android:layout_marginTop="20px"
+        android:gravity="center_horizontal"
+		android:id="@+id/txtAboutUsHeading" />
+
+    <TextView
+		android:text="Please do not hesitate to contact us about anything regarding this mobile application, the information supplied, and any other enquiries that you might 
+have"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:minWidth="25px"
+		android:minHeight="25px"
+        android:layout_marginLeft="40px"
+        android:layout_marginTop="40px"
+        android:textColor="@android:color/white"
+        android:textSize="30px"
+		android:id="@+id/txtAboutUsHeading" />
+
+    <TextView
+		android:text="Email: cholteachteam@gmail.com"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:minWidth="25px"
+		android:minHeight="25px"
+        android:layout_marginLeft="40px"
+        android:layout_marginTop="40px"
+        android:textColor="@android:color/white"
+        android:textSize="30px"
+		android:id="@+id/txtAboutUsHeading" />
+
+    <TextView
+		android:text="Phone: (+27) 11 453 8734"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:minWidth="25px"
+		android:minHeight="25px"
+        android:layout_marginLeft="40px"
+        android:layout_marginTop="20px"
+        android:textColor="@android:color/white"
+        android:textSize="30px"
+		android:id="@+id/txtAboutUsHeading" />
+
+    <TextView
+		android:text="Our Offices: 887 18th Avenue, Wonderboom South, Pretoria, Gauteng, South Africa, 0084"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:minWidth="25px"
+		android:minHeight="25px"
+        android:layout_marginLeft="40px"
+        android:layout_marginTop="20px"
+        android:textColor="@android:color/white"
+        android:textSize="30px"
+		android:id="@+id/txtAboutUsHeading" />
+
+    <EditText
+        android:layout_width="600px"
+        android:layout_height="300px" 
+        android:layout_marginTop="60px"
+        android:layout_marginLeft="90px"
+        android:hint="Send us a message ... "
+        android:gravity="center_horizontal"
+        android:textColorHint="@android:color/white"
+        android:background="@drawable/roundedcorners"
+        android:alpha="0.8"/>
+
+    <Button
+        android:text="Send"
+        android:background="@drawable/buttons"
+        android:layout_marginTop="20px"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="260px"
+        android:textColor="@android:color/white"
+        android:layout_height="80px" />
+
+
+</LinearLayout>

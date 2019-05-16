@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.companyname.App1">
+  <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="27" />
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+  <application android:allowBackup="true" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:roundIcon="@mipmap/ic_launcher_round" android:supportsRtl="true" android:theme="@style/AppTheme" android:name="android.app.Application" android:debuggable="true">
+    <activity android:label="AboutActivity" android:name="md534dff480a52c45f6caea0c4186201ac3.AboutActivity" />
+    <activity android:label="CausesActivity" android:name="md534dff480a52c45f6caea0c4186201ac3.CausesActivity" />
+    <activity android:label="Enter Email" android:name="md534dff480a52c45f6caea0c4186201ac3.CheckExistingUserActivity" />
+    <activity android:label="Cholera Awareness Forum" android:name="md534dff480a52c45f6caea0c4186201ac3.CholeraAwarenessForumActivity" />
+    <activity android:label="Cholera Information" android:name="md534dff480a52c45f6caea0c4186201ac3.CholeraInfoActivity" />
+    <activity android:label="Clinics" android:name="md534dff480a52c45f6caea0c4186201ac3.ClinicActivity" />
+    <activity android:label="Clinic Information" android:name="md534dff480a52c45f6caea0c4186201ac3.ClinicInfoActivity" />
+    <activity android:label="Contact" android:name="md534dff480a52c45f6caea0c4186201ac3.ContactActivity" />
+    <activity android:label="FAQ" android:name="md534dff480a52c45f6caea0c4186201ac3.FAQActivity" />
+    <activity android:label="Find Help" android:name="md534dff480a52c45f6caea0c4186201ac3.FindHelpActivity" />
+    <activity android:label="Forum" android:name="md534dff480a52c45f6caea0c4186201ac3.ForumActivity" />
+    <activity android:label="Home" android:name="md534dff480a52c45f6caea0c4186201ac3.HomeActivity" />
+    <activity android:label="Hospitals" android:name="md534dff480a52c45f6caea0c4186201ac3.HospitalActivity" />
+    <activity android:label="Hospital Information" android:name="md534dff480a52c45f6caea0c4186201ac3.HospitalInfoActivity" />
+    <activity android:label="Login" android:name="md534dff480a52c45f6caea0c4186201ac3.LoginActivity" />
+    <activity android:icon="@mipmap/icon" android:theme="@android:style/Theme.NoTitleBar" android:name="md534dff480a52c45f6caea0c4186201ac3.MainActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <activity android:label="News Feed" android:name="md534dff480a52c45f6caea0c4186201ac3.NewsFeedActivity" />
+    <activity android:label="Prevention Methods" android:name="md534dff480a52c45f6caea0c4186201ac3.PreventionMethodsActivity" />
+    <activity android:label="Profile" android:name="md534dff480a52c45f6caea0c4186201ac3.ProfileActivity" />
+    <activity android:label="Purification Methods" android:name="md534dff480a52c45f6caea0c4186201ac3.PurificationMethodsActivity" />
+    <activity android:label="Risk Factors" android:name="md534dff480a52c45f6caea0c4186201ac3.RiskFactorsActivity" />
+    <activity android:label="Settings" android:name="md534dff480a52c45f6caea0c4186201ac3.SettingsActivity" />
+    <activity android:label="Register" android:name="md534dff480a52c45f6caea0c4186201ac3.SignupActivity" />
+    <activity android:label="Symptoms" android:name="md534dff480a52c45f6caea0c4186201ac3.SymptomActivity" />
+    <activity android:label="Terms and Conditions" android:name="md534dff480a52c45f6caea0c4186201ac3.TermsActivity" />
+    <activity android:label="Treatments" android:name="md534dff480a52c45f6caea0c4186201ac3.TreatmentsActivity" />
+    <activity android:label="Water Restrictions Forum" android:name="md534dff480a52c45f6caea0c4186201ac3.WaterRestrictionsForumActivity" />
+    <activity android:label="Water Sources" android:name="md534dff480a52c45f6caea0c4186201ac3.WaterSourceActivity" />
+    <activity android:label="Water Source Information" android:name="md534dff480a52c45f6caea0c4186201ac3.WaterSourceInfoActivity" />
+    <service android:name="md5dcb6eccdc824e0677ffae8ccdde42930.KeepAliveService" />
+    <receiver android:enabled="true" android:exported="false" android:label="Essentials Battery Broadcast Receiver" android:name="md5d630c3d3bfb5f5558520331566132d97.BatteryBroadcastReceiver" />
+    <receiver android:enabled="true" android:exported="false" android:label="Essentials Energy Saver Broadcast Receiver" android:name="md5d630c3d3bfb5f5558520331566132d97.EnergySaverBroadcastReceiver" />
+    <receiver android:enabled="true" android:exported="false" android:label="Essentials Connectivity Broadcast Receiver" android:name="md5d630c3d3bfb5f5558520331566132d97.ConnectivityBroadcastReceiver" />
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="1999999999" android:authorities="com.companyname.App1.mono.MonoRuntimeProvider.__mono_init__" />
+    <!--suppress ExportedReceiver-->
+    <receiver android:name="mono.android.Seppuku">
+      <intent-filter>
+        <action android:name="mono.android.intent.action.SEPPUKU" />
+        <category android:name="mono.android.intent.category.SEPPUKU.com.companyname.App1" />
+      </intent-filter>
+    </receiver>
+  </application>
+</manifest>

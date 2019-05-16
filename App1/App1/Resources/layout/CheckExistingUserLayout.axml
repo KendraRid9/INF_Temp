@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:orientation="vertical" 
+    android:layout_width="match_parent" 
+    android:layout_height="match_parent"
+    android:background="@drawable/hands">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+        android:background="#0d0d0d"
+        android:alpha="0.7">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+	        <TextView
+		        android:text="Please enter your email"
+		        android:textAppearance="?android:attr/textAppearanceMedium"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:minWidth="25px"
+		        android:minHeight="25px"
+                android:layout_marginTop="120px"
+                android:gravity="center_horizontal"
+                android:textColor="@android:color/white"
+		        android:id="@+id/txtEnterEmailPrompt" />
+	        <EditText
+		        android:inputType="textEmailAddress"
+		        android:layout_width="600px"
+		        android:layout_height="wrap_content"
+                android:layout_marginTop="200px"
+                android:hint="Email"
+                android:layout_marginLeft="70px"
+                android:textColorHint="@android:color/white"
+                android:backgroundTint="@android:color/white"
+                android:textColor="@android:color/white"
+		        android:id="@+id/txtInputCheckUserEmail" />
+	        <Button
+		        android:text="Continue"
+		        android:layout_width="300px"
+		        android:layout_height="80px"
+                android:layout_marginTop="400px"
+                android:layout_marginLeft="240px"
+                android:background="@drawable/buttons"
+                android:textColor="@android:color/white"
+		        android:id="@+id/btnCheckUserContinue" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

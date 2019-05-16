@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:orientation="vertical" 
+    android:background="#0d0d0d"
+    android:layout_width="match_parent" 
+    android:layout_height="match_parent">
+
+    <TextView
+		android:text="FAQ"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:minWidth="25px"
+		android:minHeight="25px"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="60px"
+        android:textStyle="bold"
+        android:layout_marginTop="20px"
+        android:gravity="center_horizontal"
+		android:id="@+id/txtAboutUsHeading" />
+
+    <TextView
+		android:text="What is Cholera?"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:minWidth="25px"
+		android:minHeight="25px"
+        android:textColor="@android:color/white"
+        android:textSize="40px"
+        android:textStyle="bold"
+        android:layout_marginLeft="40px"
+        android:layout_marginTop="50px"
+		android:id="@+id/txtAboutUsHeading" />
+
+    <TextView
+		android:text="Cholera is an infectious and often fatal bacterial disease of the small intestine, typically contracted from infected water supplies and causing severe vomiting and diarrhoea."
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:minWidth="25px"
+		android:minHeight="25px"
+        android:textColor="@android:color/white"
+        android:textSize="30px"
+        android:layout_marginLeft="40px"
+        android:layout_marginTop="10px"
+		android:id="@+id/txtAboutUsHeading" />
+
+    <TextView
+		android:text="Which Subsaharan areas are most affected by Cholera?"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:minWidth="25px"
+		android:minHeight="25px"
+        android:textColor="@android:color/white"
+        android:textSize="40px"
+        android:textStyle="bold"
+        android:layout_marginLeft="40px"
+        android:layout_marginTop="50px"
+		android:id="@+id/txtAboutUsHeading" />
+
+    <TextView
+		android:text="Angola, Democratic Republic of Congo, Mozambique, Nigeria, Somalia, Tanzania, and South Africa are the most commonly affected Subsaharan regions."
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:minWidth="25px"
+		android:minHeight="25px"
+        android:textColor="@android:color/white"
+        android:textSize="30px"
+        android:layout_marginLeft="40px"
+        android:layout_marginTop="10px"
+		android:id="@+id/txtAboutUsHeading" />
+
+    <TextView
+		android:text="Is this mobile app available everywhere?"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:minWidth="25px"
+		android:minHeight="25px"
+        android:textColor="@android:color/white"
+        android:textSize="40px"
+        android:textStyle="bold"
+        android:layout_marginLeft="40px"
+        android:layout_marginRight="40px"
+        android:layout_marginTop="50px"
+		android:id="@+id/txtAboutUsHeading" />
+
+    <TextView
+		android:text="Yes. As long as the app is downloaded on your mobile device, you will have access to the app regardless of your location."
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:minWidth="25px"
+		android:minHeight="25px"
+        android:textColor="@android:color/white"
+        android:textSize="30px"
+        android:layout_marginLeft="40px"
+        android:layout_marginTop="10px"
+		android:id="@+id/txtAboutUsHeading" />
+</LinearLayout>

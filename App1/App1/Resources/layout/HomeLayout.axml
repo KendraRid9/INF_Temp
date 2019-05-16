@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--tools:layout_marginTop="-200dp"-->
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:scrollbars = "vertical"
+    android:scrollbarStyle="insideInset"
+    android:background="@drawable/hands"
+    android:backgroundTintMode="screen"
+    android:backgroundTint="#0d0d0d">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+	    <TextView
+		    android:text="HOME"
+		    android:textAppearance="?android:attr/textAppearanceLarge"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:minWidth="25px"
+		    android:minHeight="25px"
+            android:textColor="@android:color/holo_red_dark"
+            android:textStyle="bold"
+            android:textSize="60px"
+            android:layout_marginLeft="300px"
+		    android:id="@+id/textView1" />
+
+        <Button
+            android:layout_width="380px"
+            android:layout_height="380px"
+            android:layout_marginTop="380px"
+            android:layout_marginLeft="250px"
+            android:adjustViewBounds="true"
+            android:visibility="visible"
+            android:clickable="true"
+            android:rotation="45"
+            android:textDirection="inherit"
+            android:background="#808080"
+            android:id="@+id/btnCholeraInfoHomeTemp" />
+
+        <Button
+            android:layout_width="400px"
+            android:layout_height="400px"
+            android:layout_marginTop="1000px"
+            android:layout_marginLeft="0px"
+            android:adjustViewBounds="true"
+            android:visibility="visible"
+            android:clickable="true"
+            android:rotation="45"
+            android:alpha="0.7"
+            android:textDirection="inherit"
+            android:background="#404040"
+            android:id="@+id/btnCholeraInfoHomeTemp" />
+
+        <Button
+            android:layout_width="360px"
+            android:layout_height="360px"
+            android:layout_marginTop="1000px"
+            android:layout_marginLeft="400px"
+            android:adjustViewBounds="true"
+            android:visibility="visible"
+            android:clickable="true"
+            android:rotation="45"
+            android:alpha="0.9"
+            android:textDirection="inherit"
+            android:background="#262626"
+            android:id="@+id/btnCholeraInfoHomeTemp" />
+
+        <Button
+            android:layout_width="350px"
+            android:layout_height="350px"
+            android:layout_marginTop="150px"
+            android:layout_marginLeft="120px"
+            android:adjustViewBounds="true"
+            android:visibility="visible"
+            android:clickable="true"
+            android:rotation="45"
+            android:textDirection="inherit"
+            android:background="#333333"
+            android:alpha="0.8"
+            android:id="@+id/btnCholeraInfoHomeTemp" />
+
+        <Button
+            android:layout_width="250px"
+            android:layout_height="250px"
+            android:layout_marginTop="120px"
+            android:layout_marginLeft="110px"
+            android:adjustViewBounds="true"
+            android:visibility="visible"
+            android:clickable="true"
+            android:rotation="45"
+            android:textDirection="inherit"
+            android:alpha="0.8"
+            android:background="@android:color/holo_red_dark"
+            android:id="@+id/btnCholeraInfoHome" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:text="CHOLERA DISEASE"
+            android:layout_marginTop="220px"
+            android:layout_marginLeft="110px"
+            android:translationZ="?android:attr/actionBarSize"
+            android:textColor="@android:color/white"/>
+    
+	    <Button
+		    android:layout_width="200px"
+            android:layout_marginTop="250px"
+		    android:layout_height="200px"
+            android:layout_marginLeft="420px"
+            android:background="#0d0d0d"
+            android:adjustViewBounds="true"
+            android:visibility="visible"
+            android:clickable="true"
+            android:rotation="45"
+		    android:id="@+id/btnClinicHome" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:text="CLINICS"
+            android:layout_marginTop="330px"
+            android:layout_marginLeft="470px"
+            android:translationZ="?android:attr/actionBarSize"
+            android:textColor="@android:color/white"/>
+
+        <Button
+            android:layout_width="380px"
+            android:layout_height="380px"
+            android:layout_marginTop="520px"
+            android:layout_marginLeft="80px"
+            android:adjustViewBounds="true"
+            android:visibility="visible"
+            android:clickable="true"
+            android:rotation="45"
+            android:textDirection="inherit"
+            android:background="#262626"
+            android:id="@+id/btnCholeraInfoHomeTemp" />
+
+        <Button
+            android:layout_width="300px"
+            android:layout_height="300px"
+            android:layout_marginTop="750px"
+            android:layout_marginLeft="300px"
+            android:adjustViewBounds="true"
+            android:visibility="visible"
+            android:clickable="true"
+            android:rotation="45"
+            android:textDirection="inherit"
+            android:background="#666666"
+            android:alpha="0.5"
+            android:id="@+id/btnCholeraInfoHomeTemp" />
+
+	    <Button
+		    android:layout_width="220px"
+            android:layout_marginTop="560px"
+		    android:layout_height="220px"
+            android:layout_marginLeft="430px"
+            android:adjustViewBounds="true"
+            android:visibility="visible"
+            android:clickable="true"
+            android:rotation="45"
+            android:background="@android:color/holo_red_dark"
+		    android:id="@+id/btnHospitalHome" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:text="HOSPITALS"
+            android:layout_marginTop="650px"
+            android:layout_marginLeft="470px"
+            android:translationZ="?android:attr/actionBarSize"
+            android:textColor="@android:color/white"/>
+
+	    <Button
+		    android:layout_width="230px"
+            android:layout_marginTop="440px"
+		    android:layout_height="230px"
+            android:layout_marginLeft="60px"
+            android:adjustViewBounds="true"
+            android:visibility="visible"
+            android:clickable="true"
+            android:rotation="45"
+            android:background="#8c8c8c"
+		    android:id="@+id/btnWaterSourcesHome" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:text="WATER"
+            android:layout_marginTop="530px"
+            android:layout_marginLeft="130px"
+            android:translationZ="?android:attr/actionBarSize"
+            android:textColor="@android:color/white"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:text="SOURCES"
+            android:layout_marginTop="565px"
+            android:layout_marginLeft="110px"
+            android:translationZ="?android:attr/actionBarSize"
+            android:textColor="@android:color/white"/>
+
+	    <Button
+		    android:layout_width="160px"
+            android:layout_marginTop="670px"
+            android:layout_marginLeft="240px"
+		    android:layout_height="160px"
+            android:adjustViewBounds="true"
+            android:visibility="visible"
+            android:clickable="true"
+            android:rotation="45"
+            android:background="#0d0d0d"
+		    android:id="@+id/btnForumHome" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:text="FORUM"
+            android:layout_marginTop="740px"
+            android:layout_marginLeft="270px"
+            android:translationZ="?android:attr/actionBarSize"
+            android:textColor="@android:color/white"/>
+
+        <Button
+		    android:layout_width="180px"
+            android:layout_marginTop="750px"
+            android:layout_marginLeft="50px"
+		    android:layout_height="180px"
+            android:adjustViewBounds="true"
+            android:visibility="visible"
+            android:clickable="true"
+            android:rotation="45"
+            android:alpha="0.7"
+            android:background="@android:color/holo_red_dark"
+		    android:id="@+id/btnProfileHome" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:text="PROFILE"
+            android:layout_marginTop="820px"
+            android:layout_marginLeft="90px"
+            android:translationZ="?android:attr/actionBarSize"
+            android:textColor="@android:color/white"/>
+
+        <Button
+		    android:layout_width="300px"
+            android:layout_marginTop="860px"
+            android:layout_marginLeft="280px"
+		    android:layout_height="300px"
+            android:adjustViewBounds="true"
+            android:visibility="visible"
+            android:clickable="true"
+            android:rotation="45"
+            android:background="#8c8c8c"
+		    android:id="@+id/btnNewsFeedHome" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:text="NEWS FEED"
+            android:layout_marginTop="990px"
+            android:layout_marginLeft="350px"
+            android:translationZ="?android:attr/actionBarSize"
+            android:textColor="@android:color/white"/>
+
+        <Button
+		    android:layout_width="230px"
+            android:layout_marginTop="1030px"
+            android:layout_marginLeft="50px"
+		    android:layout_height="230px"
+            android:adjustViewBounds="true"
+            android:visibility="visible"
+            android:clickable="true"
+            android:rotation="45"
+            android:background="@android:color/holo_red_dark"
+		    android:id="@+id/btnFindHelpHome" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:text="FIND HELP"
+            android:layout_marginTop="1130px"
+            android:layout_marginLeft="100px"
+            android:translationZ="?android:attr/actionBarSize"
+            android:textColor="@android:color/white"/>
+
+        <Button
+		    android:layout_width="200px"
+            android:layout_marginTop="1110px"
+            android:layout_marginLeft="510px"
+		    android:layout_height="200px"
+            android:adjustViewBounds="true"
+            android:visibility="visible"
+            android:clickable="true"
+            android:rotation="45"
+            android:background="@android:color/holo_red_dark"
+            android:alpha="0.8"
+		    android:id="@+id/btnSettingsHome" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:text="SETTINGS"
+            android:layout_marginTop="1190px"
+            android:layout_marginLeft="550px"
+            android:translationZ="?android:attr/actionBarSize"
+            android:textColor="@android:color/white"/>
+
+        <Button
+		    android:layout_width="190px"
+            android:layout_marginTop="1250px"
+            android:layout_marginLeft="240px"
+		    android:layout_height="190px"
+            android:adjustViewBounds="true"
+            android:visibility="visible"
+            android:clickable="true"
+            android:rotation="45"
+            android:background="#0d0d0d"
+		    android:id="@+id/btnLogoutHome" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:text="LOG OUT"
+            android:layout_marginTop="1330px"
+            android:layout_marginLeft="280px"
+            android:translationZ="?android:attr/actionBarSize"
+            android:textColor="@android:color/white"/>
+
+        <ImageView
+            android:layout_width="60px"
+            android:layout_height="60px" 
+            android:layout_marginTop="260px"
+            android:layout_marginLeft="490px"
+            android:translationZ="?android:attr/actionBarSize"
+            android:src="@drawable/clinic"/>
+
+        <ImageView
+            android:layout_width="60px"
+            android:layout_height="60px" 
+            android:layout_marginTop="460px"
+            android:layout_marginLeft="150px"
+            android:translationZ="?android:attr/actionBarSize"
+            android:src="@drawable/watersource"/>
+
+        <ImageView
+            android:layout_width="60px"
+            android:layout_height="60px" 
+            android:layout_marginTop="750px"
+            android:layout_marginLeft="110px"
+            android:translationZ="?android:attr/actionBarSize"
+            android:src="@drawable/profile"/>
+
+        <ImageView
+            android:layout_width="60px"
+            android:layout_height="60px" 
+            android:layout_marginTop="680px"
+            android:layout_marginLeft="290px"
+            android:translationZ="?android:attr/actionBarSize"
+            android:src="@drawable/dashboard"/>
+
+        <ImageView
+            android:layout_width="60px"
+            android:layout_height="60px" 
+            android:layout_marginTop="910px"
+            android:layout_marginLeft="390px"
+            android:translationZ="?android:attr/actionBarSize"
+            android:src="@drawable/baseline_question_answer_white_18dp"/>
+
+        <ImageView
+            android:layout_width="60px"
+            android:layout_height="60px" 
+            android:layout_marginTop="1120px"
+            android:layout_marginLeft="580px"
+            android:translationZ="?android:attr/actionBarSize"
+            android:src="@drawable/settings"/>
+
+        <ImageView
+            android:layout_width="60px"
+            android:layout_height="60px" 
+            android:layout_marginTop="1060px"
+            android:layout_marginLeft="130px"
+            android:translationZ="?android:attr/actionBarSize"
+            android:src="@drawable/help"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:text="H"
+            android:layout_marginTop="570px"
+            android:layout_marginLeft="520px"
+            android:textStyle="bold"
+            android:textSize="60px"
+            android:translationZ="?android:attr/actionBarSize"
+            android:textColor="@android:color/white"/>
+
+    </RelativeLayout>
+
+</ScrollView>

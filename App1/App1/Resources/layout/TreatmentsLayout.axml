@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:orientation="vertical" 
+    android:layout_width="match_parent" 
+    android:layout_height="match_parent" 
+    android:background="#0d0d0d"
+    android:id="@+id/treatmentsLinearLayout">
+
+    <TextView
+		android:text="Treatments"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:minWidth="25px"
+		android:minHeight="25px"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="60px"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20px"
+		android:id="@+id/txtTreatmentssHeading" />
+</LinearLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hands"
+    android:backgroundTintMode="screen"
+    android:backgroundTint="#0d0d0d">
+
+	<Button
+		android:text="Symptoms"
+		android:layout_width="550px"
+		android:layout_height="100px"
+		android:minWidth="25px"
+		android:minHeight="25px"
+        android:layout_marginLeft="120px"
+        android:layout_marginTop="100px"
+        android:background="@drawable/buttonShadow"
+        android:alpha="0.9"
+		android:id="@+id/btnSymptoms" />
+	<Button
+		android:text="Causes"
+		android:layout_width="550px"
+		android:layout_height="100px"
+        android:layout_marginLeft="120px"
+        android:layout_marginTop="40px"
+        android:background="@drawable/buttonShadow"
+        android:alpha="0.9"
+		android:id="@+id/btnCauses" />
+	<Button
+		android:text="Prevention Methods"
+		android:layout_width="550px"
+		android:layout_height="100px"
+        android:layout_marginLeft="120px"
+        android:layout_marginTop="40px"
+        android:background="@drawable/buttonShadow"
+        android:alpha="0.9"
+		android:id="@+id/btnPreventionMethods" />
+	<Button
+		android:text="Water Purification Methods"
+		android:layout_width="550px"
+		android:layout_height="100px"
+        android:layout_marginLeft="120px"
+        android:layout_marginTop="40px"
+        android:background="@drawable/buttonShadow"
+        android:alpha="0.9"
+		android:id="@+id/btnPurification" />
+	<Button
+		android:text="Treatments"
+		android:layout_width="550px"
+		android:layout_height="100px"
+        android:layout_marginLeft="120px"
+        android:layout_marginTop="40px"
+        android:background="@drawable/buttonShadow"
+        android:alpha="0.9"
+		android:id="@+id/btnTreatments" />
+	<Button
+		android:text="Risk Factors"
+		android:layout_width="550px"
+		android:layout_height="100px"
+        android:layout_marginLeft="120px"
+        android:layout_marginTop="40px"
+        android:background="@drawable/buttonShadow"
+        android:alpha="0.9"
+		android:id="@+id/btnRiskFactors" />
+
+</LinearLayout>
