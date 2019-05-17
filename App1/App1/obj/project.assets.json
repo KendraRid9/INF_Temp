@@ -854,11 +854,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Kendra\\Documents\\TEMP\\Integration\\App1\\App1\\App1.csproj",
+      "projectUniqueName": "C:\\Users\\Kendra\\Documents\\TEMP\\INF_Temp\\App1\\App1\\App1.csproj",
       "projectName": "App1",
-      "projectPath": "C:\\Users\\Kendra\\Documents\\TEMP\\Integration\\App1\\App1\\App1.csproj",
+      "projectPath": "C:\\Users\\Kendra\\Documents\\TEMP\\INF_Temp\\App1\\App1\\App1.csproj",
       "packagesPath": "C:\\Users\\Kendra\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Kendra\\Documents\\TEMP\\Integration\\App1\\App1\\obj\\",
+      "outputPath": "C:\\Users\\Kendra\\Documents\\TEMP\\INF_Temp\\App1\\App1\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [

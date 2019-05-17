@@ -184,7 +184,7 @@ namespace App1
         {
             //TODO Call API and extract and check response - api/UserController/Authenticate
 
-            try
+            /*try
             {
                 object userInfo = new { email = email, password = password };
                 var jsonObj = JsonConvert.SerializeObject(userInfo);
@@ -244,9 +244,9 @@ namespace App1
                 Console.WriteLine("Message :{0} ", e);
                 Toast.MakeText(Application.Context, "Error: " + e.ToString(), ToastLength.Short).Show();
                 authenticated = false;
-            }
+            }*/
 
-            //return false;
+            authenticated = false;
 
             /*String response = "Success";
 

@@ -54,26 +54,26 @@ namespace App1
             // DEFINE OBJECT FOR JSON RETURNED
             await callAPIEndpoint();
 
-            String[] str = new String[3];
+            /*String[] str = new String[3];
 
             str[0] = "Working";
             str[1] = "Testing";
-            str[2] = "WorkingTestingWorking";
+            str[2] = "WorkingTestingWorking";*/
 
             //Retrieve the layout so that we can append UI elements to it
             LinearLayout linearLayout = FindViewById<LinearLayout>(Resource.Id.causesLinearLayout);
 
             //Loop through each item in the JSON object and create a UI element for each 
-            foreach (var i in str)
+            foreach (var i in jToken["data"])
             {
                 //Create TextView for the Title Attribute
                 TextView title = new TextView(this);
-                title.Text = "Title"; //TODO Change this to array values
+                title.Text = i["Title"].ToString(); //TODO Change this to array values
                 title.TextSize = 20;
 
                 //Create TextView for the Description Attribute
                 TextView description = new TextView(this);
-                description.Text = "Description"; //TODO Change this to array values
+                description.Text = i["Description"].ToString(); //TODO Change this to array values
                 description.TextSize = 16;
 
                 //Define the TextView layout
@@ -128,6 +128,11 @@ namespace App1
                         {
                             Toast.MakeText(Application.Context, "Causes Fetched!", ToastLength.Short).Show();
                             Console.WriteLine("DATA ------------{0}", JsonConvert.DeserializeObject(jToken["data"].ToString()));
+
+                            foreach (var i in jToken["data"])
+                            {
+                                Console.WriteLine("CAUSE ------------{0}", i);
+                            }
 
                             //TODO: return json data
                         }

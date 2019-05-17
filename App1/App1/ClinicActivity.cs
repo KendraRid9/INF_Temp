@@ -29,8 +29,9 @@ namespace App1
     {
         private static JToken jToken;
         private static HttpClient client = new HttpClient();
+        private static int numClinics; 
 
-        protected override void OnCreate(Bundle savedInstanceState)
+        protected override async void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
 
@@ -40,9 +41,10 @@ namespace App1
             //TODO: Add Map functionality
 
             //TODO: Call API Endpoint and get all clinics
+            await callAPIEndpoint();
 
             //Dynamically Added Buttons
-            int numClinics = 5; //Get this value from the number of clinics that are returned
+            //int numClinics = 5; //Get this value from the number of clinics that are returned
             addButtons(numClinics);
         }
 
@@ -58,11 +60,13 @@ namespace App1
             LinearLayout linearLayout = FindViewById<LinearLayout>(Resource.Id.clinicMapLinearLayout);
 
             //Loop through each item in the JSON object and create a UI element for each 
-            for (int i = 0; i < num; i++)
+            foreach (var i in jToken["data"])
             {
                 //Create Button foreach clinic
                 Button button = new Button(this);
-                button.Text = "Clinic " + (i + 1);
+                //button.Text = "Clinic " + (i + 1);
+                button.Text = i["Name"].ToString();
+
 
                 //Connect the button to an onclick event handler which is used to send details to the ClinicInfoActivity
                 button.Click += new EventHandler(button_click);
@@ -134,6 +138,14 @@ namespace App1
                         {
                             Toast.MakeText(Application.Context, "Clinics Fetched!", ToastLength.Short).Show();
                             Console.WriteLine("DATA ------------{0}", JsonConvert.DeserializeObject(jToken["data"].ToString()));
+
+                            numClinics = jToken["data"].Count<object>();
+                            Console.WriteLine("NUM CLINICS -------" + numClinics.ToString());
+
+                            foreach (var i in jToken["data"])
+                            {
+                                Console.WriteLine("CLINIC ------------{0}", i);
+                            }
 
                             //TODO: return json data OR num of clinics
                         }
